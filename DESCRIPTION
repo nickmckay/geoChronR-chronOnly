@@ -1,0 +1,63 @@
+Package: geoChronR
+Type: Package
+Title: Tools to Generate, Analyze and Visualize Time-Uncertain Data
+Version: 2.0.0
+Date: 2026-06-10
+Authors@R: c(
+    person("Nicholas", "McKay" ,email = "nick@nau.edu", role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0003-3598-5113")
+    ),
+    person("Julien", "Emile-Geay", role = c("aut"),
+      comment = c(ORCID = "0000-0001-5920-4751")
+    ),
+    person("Deborah", "Khider", role = "aut",
+        comment = c(ORCID = "0000-0001-7501-8430")
+    )
+  )
+Maintainer: Nick McKay <nick@nau.edu>
+Description: Age-uncertain chronology development for paleogeoscientific
+    data, including age modeling with Bacon, Bchron, OxCal, and BAM, and
+    LiPD (Linked Paleo Data) model infrastructure. Ensemble analysis is
+    provided by the 'ens' package and visualization by the 'lipdViz'
+    package; geoChronR imports and re-exports both, so the complete
+    geoChronR 1.x API remains available by loading this package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    ens,
+    lipdViz,
+    Bchron,
+    crayon,
+    data.table,
+    dplyr,
+    glue,
+    lipdR,
+    lubridate,
+    magrittr,
+    oxcAAR,
+    purrr,
+    rbacon,
+    readr,
+    stats,
+    stringr,
+    tibble,
+    tidyr,
+    utils
+Suggests:
+    ggplot2,
+    gridExtra,
+    knitr,
+    neotoma2,
+    plotly,
+    ragg,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+URL: https://github.com/nickmckay/geoChronR-chronOnly
+BugReports: https://github.com/nickmckay/geoChronR-chronOnly/issues
+Remotes:
+    nickmckay/ens,
+    nickmckay/lipdViz,
+    nickmckay/lipdR,
+    andrewcparnell/Bchron
+RoxygenNote: 7.3.1
