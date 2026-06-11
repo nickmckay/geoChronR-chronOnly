@@ -21,6 +21,10 @@ ens::askUser
 
 #'
 #' @export
+ens::bamCorrect
+
+#'
+#' @export
 ens::bin
 
 #'
@@ -158,6 +162,10 @@ ens::selectData
 #'
 #' @export
 ens::simulateAutoCorrelatedUncertainty
+
+#'
+#' @export
+ens::simulateBam
 
 #'
 #' @export

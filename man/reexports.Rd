@@ -7,6 +7,7 @@
 \alias{ar1}
 \alias{ar1Surrogates}
 \alias{askUser}
+\alias{bamCorrect}
 \alias{bin}
 \alias{binEns}
 \alias{binTs}
@@ -42,6 +43,7 @@
 \alias{regressEns}
 \alias{selectData}
 \alias{simulateAutoCorrelatedUncertainty}
+\alias{simulateBam}
 \alias{storey}
 \alias{surrogateDataFun}
 \alias{AD2BP_trans}
@@ -87,7 +89,7 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
-  \item{ens}{\code{\link[ens]{alignTimeseriesBin}}, \code{\link[ens]{ar1}}, \code{\link[ens]{ar1Surrogates}}, \code{\link[ens]{askUser}}, \code{\link[ens]{bin}}, \code{\link[ens]{binEns}}, \code{\link[ens]{binTs}}, \code{\link[ens]{computeSpectraEns}}, \code{\link[ens]{concatEnsembleTimeseries}}, \code{\link[ens]{convertAD2BP}}, \code{\link[ens]{convertBP2AD}}, \code{\link[ens]{corEns}}, \code{\link[ens]{corMatrix}}, \code{\link[ens]{createConcatenatedEnsembleMeasurementTable}}, \code{\link[ens]{createSyntheticTimeseries}}, \code{\link[ens]{createTSid}}, \code{\link[ens]{effectiveN}}, \code{\link[ens]{estimateUncertaintyFromRange}}, \code{\link[ens]{fdr}}, \code{\link[ens]{fdr.master}}, \code{\link[ens]{fdrBasic}}, \code{\link[ens]{gaussianize}}, \code{\link[ens]{generateEnsembleFromUncertainty}}, \code{\link[ens]{getOs}}, \code{\link[ens]{getVariableIndex}}, \code{\link[ens]{heuristicUnits}}, \code{\link[ens]{loadRemote}}, \code{\link[ens]{mapAgeEnsembleToPaleoData}}, \code{\link[ens]{modeSelektor}}, \code{\link[ens]{pcaEns}}, \code{\link[ens]{propAlt}}, \code{\link[ens]{pullInstance}}, \code{\link[ens]{pullTsVariable}}, \code{\link[ens]{pvalMonteCarlo}}, \code{\link[ens]{pvalPearsonSerialCorrected}}, \code{\link[ens]{regress}}, \code{\link[ens]{regressEns}}, \code{\link[ens]{selectData}}, \code{\link[ens]{simulateAutoCorrelatedUncertainty}}, \code{\link[ens]{storey}}, \code{\link[ens]{surrogateDataFun}}}
+  \item{ens}{\code{\link[ens]{alignTimeseriesBin}}, \code{\link[ens]{ar1}}, \code{\link[ens]{ar1Surrogates}}, \code{\link[ens]{askUser}}, \code{\link[ens]{bamCorrect}}, \code{\link[ens]{bin}}, \code{\link[ens]{binEns}}, \code{\link[ens]{binTs}}, \code{\link[ens]{computeSpectraEns}}, \code{\link[ens]{concatEnsembleTimeseries}}, \code{\link[ens]{convertAD2BP}}, \code{\link[ens]{convertBP2AD}}, \code{\link[ens]{corEns}}, \code{\link[ens]{corMatrix}}, \code{\link[ens]{createConcatenatedEnsembleMeasurementTable}}, \code{\link[ens]{createSyntheticTimeseries}}, \code{\link[ens]{createTSid}}, \code{\link[ens]{effectiveN}}, \code{\link[ens]{estimateUncertaintyFromRange}}, \code{\link[ens]{fdr}}, \code{\link[ens]{fdr.master}}, \code{\link[ens]{fdrBasic}}, \code{\link[ens]{gaussianize}}, \code{\link[ens]{generateEnsembleFromUncertainty}}, \code{\link[ens]{getOs}}, \code{\link[ens]{getVariableIndex}}, \code{\link[ens]{heuristicUnits}}, \code{\link[ens]{loadRemote}}, \code{\link[ens]{mapAgeEnsembleToPaleoData}}, \code{\link[ens]{modeSelektor}}, \code{\link[ens]{pcaEns}}, \code{\link[ens]{propAlt}}, \code{\link[ens]{pullInstance}}, \code{\link[ens]{pullTsVariable}}, \code{\link[ens]{pvalMonteCarlo}}, \code{\link[ens]{pvalPearsonSerialCorrected}}, \code{\link[ens]{regress}}, \code{\link[ens]{regressEns}}, \code{\link[ens]{selectData}}, \code{\link[ens]{simulateAutoCorrelatedUncertainty}}, \code{\link[ens]{simulateBam}}, \code{\link[ens]{storey}}, \code{\link[ens]{surrogateDataFun}}}
 
   \item{lipdViz}{\code{\link[lipdViz]{AD2BP_trans}}, \code{\link[lipdViz]{axisLabel}}, \code{\link[lipdViz]{baseMap}}, \code{\link[lipdViz]{bin2d}}, \code{\link[lipdViz]{BP2AD_trans}}, \code{\link[lipdViz]{geoChronRPlotTheme}}, \code{\link[lipdViz]{getLegend}}, \code{\link[lipdViz]{getPlotRanges}}, \code{\link[lipdViz]{kde2d}}, \code{\link[lipdViz]{mapLipd}}, \code{\link[lipdViz]{mapTs}}, \code{\link[lipdViz]{meltDistributionTable}}, \code{\link[lipdViz]{periodAnnotate}}, \code{\link[lipdViz]{plotChron}}, \code{\link[lipdViz]{plotChronEns}}, \code{\link[lipdViz]{plotChronEnsDiff}}, \code{\link[lipdViz]{plotCorEns}}, \code{\link[lipdViz]{plotHistEns}}, \code{\link[lipdViz]{plotLine}}, \code{\link[lipdViz]{plotModelDistributions}}, \code{\link[lipdViz]{plotPcaEns}}, \code{\link[lipdViz]{plotPvalsEnsFdr}}, \code{\link[lipdViz]{plotRegressEns}}, \code{\link[lipdViz]{plotScatterEns}}, \code{\link[lipdViz]{plotScreeEns}}, \code{\link[lipdViz]{plotSpectraEns}}, \code{\link[lipdViz]{plotSpectrum}}, \code{\link[lipdViz]{plotSummary}}, \code{\link[lipdViz]{plotSummaryTs}}, \code{\link[lipdViz]{plotTimeAvailabilityTs}}, \code{\link[lipdViz]{plotTimeseriesEnsLines}}, \code{\link[lipdViz]{plotTimeseriesEnsRibbons}}, \code{\link[lipdViz]{plotTimeseriesStack}}, \code{\link[lipdViz]{plotTrendLinesEns}}, \code{\link[lipdViz]{quantile2d}}, \code{\link[lipdViz]{reverselog10_trans}}}
 }}

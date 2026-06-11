@@ -80,11 +80,6 @@ L = runBam(L,
            model = list(name = "poisson",param = 0.05, resize = 0, ns = n.ens))
 }
 }
-\seealso{
-Other BAM: 
-\code{\link{bamCorrect}()},
-\code{\link{simulateBam}()}
-}
 \author{
 Nick McKay
 
